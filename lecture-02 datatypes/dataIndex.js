@@ -5,3 +5,7 @@ const place = "World";
 console.log('Hello, World!');
 
 //use subtitutions
+console.log('Hello, %s!', place);
+
+//use string literal
+console.log(`${massage}, ${place}!`);
